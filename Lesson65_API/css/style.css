@@ -1,0 +1,102 @@
+body {
+    background: rgb(50, 50, 50);
+}
+#myalbum_body {
+    background: rgb(222, 222, 222);
+}
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 20px 0  0 20px;
+}
+#myalbum_title {
+    color: white;
+}
+#home_title {
+    color: black;
+}
+#myalbum {
+    font-weight: bold;
+    text-align: center;
+    width: 5em;
+    height: 5em;
+    border-radius: 8%;
+    margin: 8px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.myalbum_btn {
+    color: rgb(50, 50, 50);
+    background: rgb(222, 222, 222);
+}
+.home_btn {
+    color: rgb(222, 222, 222);
+    background: rgb(50, 50, 50);
+}
+#keyword_box {
+    text-align: center;
+}
+#keyword {
+    text-align: left;
+    background: white;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+#button {
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+.img_box {
+    text-align: center;
+    width: 25%;
+    padding-bottom: 2em;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+}
+p {
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+    background: rgb(50, 50, 50);
+}
+img {
+    width: 90%;
+}
+#btn {
+    font-weight: bold;
+    width: 90%;
+    height: 2em;
+    display: block;
+    left: 5%;
+    bottom: 2em;
+    z-index: -999;
+    position: absolute;
+    transition: all 1s;
+}
+.download {
+    color: rgb(255, 0, 0);
+    background: white;
+}
+.delete {
+    color:rgb(255, 255, 255);
+    background: rgb(80, 80, 80);
+}
+.img_box:hover #btn {
+    bottom: 0;
+    z-index: 0;
+}
+img:hover + .download {
+    background: rgb(222, 222, 222);
+    color: rgb(50, 50, 50);
+}
+img:hover + .delete {
+    background: black;
+    color: rgb(222, 222, 222);
+}
